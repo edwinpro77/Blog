@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F4F4F9;
+    background-color: #1F1B24;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #6f6fbe;
+}
+
+#contenedor {
+    width: 97%;
+    border: 2px solid #8f2dc8;
+    padding: 20px;
+    background-color: #4b3c6c7e;
+    overflow: hidden;
+}
+
+#menu {
+    color: #F4F4F9;
+    background-color: #7d52e0;
+    padding: 10px;
+    border: 1px solid #b37dd3;
+}
+
+#menu a,
+#menu a:visited {
+    color: #F4F4F9;
+    text-decoration: none;
+    padding: 50px;
+}
+
+#menu a:hover {
+    color: #0e0b11;
+    background-color: #6e1d9d;
+    padding: 5px;
+}
+
+#contenido {
+    color: #000000;
+    overflow: hidden;
+}
+
+.imagen-index-contacto {
+    height: 200px;
+    border: 1px solid #b37dd3;
+    float: right;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+#pagina-articulo #zona-imagenes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#pagina-articulo #zona-imagenes img {
+    width: 30%;
+    height: auto;
+    border: 5px solid #6a467e;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#final,
+#zona-final {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75em;
+    color: #F4F4F9;
+    background-color: #7A4B8D;
+    padding: 10px;
+}
